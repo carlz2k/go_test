@@ -1,8 +1,8 @@
 package main
 
 import (
-	"com/carlz/lib"
-	"com/carlz/helper"
+	"go_test/com/carlz/helper"
+	"go_test/com/carlz/lib"
 )
 
 func main() {
