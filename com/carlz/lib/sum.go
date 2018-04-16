@@ -11,3 +11,7 @@ func Sum(xs []float64) float64 {
 func Average(xs []float64) float64 {
 	return Sum(xs) / float64(len(xs))
 }
+
+func Swap(z int, x, y string) (string, string, int) {
+	return y, x, z
+}

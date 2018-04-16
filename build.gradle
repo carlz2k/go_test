@@ -10,6 +10,7 @@ dependencies {
     golang {
         // build 'github.com/user/project@1.0.0-RELEASE' // Specify a version(tag in Git)
         build 'github.com/sirupsen/logrus@master'
+        test 'github.com/onsi/gomega'
     }
 }
 
@@ -27,9 +28,4 @@ task v(type: com.github.blindpirate.gogradle.Go){
 task ls(type: com.github.blindpirate.gogradle.Go){
     dependsOn v
     run 'ls'
-}
-dependencies {
-    golang {
-        build(['name':'github.com/Masterminds/cookoo', 'version':'78aa11ce75e257c51be7ea945edb84cf19c4a6de', 'transitive':false])
-    }
 }
