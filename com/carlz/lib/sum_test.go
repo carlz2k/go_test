@@ -2,8 +2,8 @@ package lib_test
 
 import (
 	"../lib"
-	"testing"
 	. "github.com/onsi/gomega"
+	"testing"
 )
 
 func TestSwap(t *testing.T) {
